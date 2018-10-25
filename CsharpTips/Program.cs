@@ -27,6 +27,8 @@ namespace CsharpTips
             //Generating list from 100 to 129 
             var listFromHunderedToOneThrity = AutoGenerationSequence.GenerateSequenceAsList(100, 30);
 
+            NoCircuting.DemoWithDubleAnd();
+            NoCircuting.DemoWithSingleAnd();
         }
     }
 }

@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AutoGenerationSequence.cs" />
     <Compile Include="EnumsWithLinq.cs" />
+    <Compile Include="NoCircuting.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
