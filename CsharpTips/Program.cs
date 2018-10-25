@@ -10,6 +10,7 @@ namespace CsharpTips
     {
         static void Main(string[] args)
         {
+            EnumsWithLinq.MakeOnListOfTwoListOfStrings();
         }
     }
 }
