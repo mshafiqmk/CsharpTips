@@ -19,5 +19,17 @@ namespace CsharpTips
             }
             Console.ReadKey();
         }
+        public static void MakeTupleOfTwoLists()
+        {
+            var names = new[] { "shafiq", "khuidad", "khan" };
+            var ages = new[] { 22, 58, 36 };
+            var namesAndAges = names.Zip(ages, (name, age) => Tuple.Create(name, age));
+
+            foreach (var nameAndAge in namesAndAges)
+            {
+                Console.WriteLine(nameAndAge.Item1 +" "+nameAndAge.Item2);
+            }
+            Console.ReadKey();
+        }
     }
 }
